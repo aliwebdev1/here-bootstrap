@@ -1,0 +1,121 @@
+p {
+    font-size: 17px;
+}
+
+.common-btn {
+    border: 1px solid #85E0CE;
+    background-color: #85E0CE;
+    font-weight: 500;
+    border-radius: 35px;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+.common-btn:hover {
+    background-color: #85e0ce9a;
+    transition: all 0.3s linear;
+    letter-spacing: 1px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.nav-item {
+    margin: 0 6px;
+}
+
+.nav-item:last-child {
+    background-color: #85E0CE;
+    border-radius: 30px;
+    padding: 0 20px;
+}
+
+/* banner section */
+.banner-section {
+    background-image: url(../images/ima.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 140px 0;
+
+}
+
+
+/* bran-logo */
+.bran-logo {
+    background-color: #DFDFDF;
+}
+
+/* blogs */
+.learn-more {
+    padding: 8px 22px;
+    border-radius: 35px;
+    background-color: #85E0CE;
+    border: 1px solid #85E0CE;
+}
+
+.learn-more:hover {
+    background-color: #85e0ce9a;
+    transition: all 0.3s linear;
+    letter-spacing: 1px;
+}
+
+/* global organizations */
+.global {
+    background-color: #DFDFDF;
+}
+
+.fas {
+    font-size: 30px;
+}
+
+.blog2 a {
+    color: rgb(22, 22, 22);
+}
+
+/* contact section */
+.contact-section {
+    background-color: #1B222C;
+}
+
+.contact-bttom {
+    background-color: #1b222c00;
+}
+
+/* footer */
+footer {
+    background-color: #3F454D;
+}
+
+.footer-tems {
+    color: #ffffff7a;
+}
+
+.footer-tems li {
+    list-style: none;
+
+}
+
+.footer-tems li a {
+    text-decoration: none;
+    color: #ffffff7a;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.footer-tems li a:hover {
+    color: #85E0CE;
+
+}
+
+
+
+@media only screen and (max-width:667px) {
+    .middle {
+        flex-direction: column-reverse;
+    }
+
+    .navbar-nav {
+        align-items: center;
+    }
+
+}
